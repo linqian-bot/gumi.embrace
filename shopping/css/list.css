@@ -1,0 +1,130 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 30px;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 49px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '';
+    font-family: 'icomoon';
+    padding-left: 4px;
+}
+
+.sk_bd ul {
+    overflow: hidden;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid red;
+}
+
+.sk_bd ul li p {
+    font-size: 16px;
+    margin: 0 0 10px 10px;
+}
+
+.qian {
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+    margin-left: 12px;
+}
+
+.dazhe {
+    font-size: 16px;
+    color: #ccc;
+    text-decoration: line-through;
+    margin-left: 14px;
+}
+
+.sk_bd ul li .jindu p {
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.jindu .hezi {
+    float: left;
+    width: 150px;
+    height: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.son {
+    width: 50%;
+    height: 100%;
+    background-color: #ee272e;
+    transition: all .7s;
+    border-radius: 10px;
+}
+
+.jindu .hezi:hover .son {
+    width: 88%;
+}
+
+.jindu .shengyu {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    margin-left: 221px;
+}
+
+.qiang {
+    width: 290px;
+    height: 50px;
+    background-color: #b1191b;
+}
+
+.qiang a {
+    font-size: 18px;
+    color: #fff;
+}
